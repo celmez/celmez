@@ -1,0 +1,96 @@
+.celmez-logo {
+    text-align: center;
+}
+.celmez-logo #celmez-item-logo-a {
+    cursor: pointer;
+}
+.celmez-logo-social-media-item-icons {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.celmez-logo-social-media-items-icons-item-li {
+    float: left;
+    padding: 10px 20px;
+}
+.celmez-logo-social-media-item-icons #tweet,
+.celmez-logo-social-media-item-icons #insta,
+.celmez-logo-social-media-item-icons #linkedin,
+.celmez-logo-social-media-item-icons #github {
+    cursor: pointer;
+    color: #f3f4f5;
+    font-size: 35px;
+    border: 2px solid #f3f4f5;
+    border-radius: 50%;
+    padding: 10px 18px;
+    transition: .4s ease;
+}
+.celmez-logo-social-media-item-icons #youtube {
+    cursor: pointer;
+    color: #f3f4f5;
+    font-size: 35px;
+    border: 2px solid #f3f4f5;
+    border-radius: 50%;
+    padding: 10px 14px;
+    transition: .4s ease;
+}
+.celmez-logo-social-media-item-icons #tweet:hover,
+.celmez-logo-social-media-item-icons #insta:hover,
+.celmez-logo-social-media-item-icons #youtube:hover,
+.celmez-logo-social-media-item-icons #linkedin:hover,
+.celmez-logo-social-media-item-icons #github:hover {
+    border: 2px solid #c80b30;
+    background-color: #c80b30;
+    color: #f3f4f5;
+    transition: .4s ease;
+}
+.celmez-about-me {
+    text-align: center;
+}
+.celmez-about-title-item-h2,
+.celmez-about-me-text-item-p {
+    color: #f3f4f5;
+}
+.celmez-about-title-item-h2 {
+    font-size: 40px;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+.celmez-about-me-text-item-p {
+    max-width: 30%;
+    text-align: center;
+    margin-left: 35%;
+}
+.celmez-footer {
+    text-align: center;
+}
+.celmez-footer .celmez-foot-text {
+    color: #f3f4f5;
+    font-size: 18px;
+}
+.celmez-footer .celmez-foot-text a {
+    display: inline-block;
+    padding-bottom: 0.25rem;
+    position: relative;
+    color: #f3f4f5;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+.celmez-footer .celmez-foot-text a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #f3f4f5;
+    transition: width 0.50s ease-out;
+}
+.celmez-footer .celmez-foot-text a:hover::before {
+    width: 100%;
+}
